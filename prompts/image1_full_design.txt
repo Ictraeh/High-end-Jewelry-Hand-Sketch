@@ -1,0 +1,9 @@
+Old‑craft jewelry full‑design hand‑drawing, medium: {{drawing_medium}}, jewelry category {{jewelry_type}}. Design derived from deconstructed elements of user free‑form subject: {{user_free_topic}}. Materials: {{material_list}}. Color palette: {{color_scheme}}.
+
+45‑degree oblique main view showing complete jewelry form. Include small‑scale finger wear‑proportion reference sketch. Retain structural center‑lines and wall‑thickness construction guide pencil lines.
+
+Hand‑sketch characteristics: visible paper grain, subtle overlapping pencil strokes, eraser alteration traces. Layered colored‑pencil wash rendering for metals and gemstones.
+
+Express physical jewelry manufacturing logic: reasonable shank or arm wall‑thickness, stone seating geometry, bezel rim dimensions, metal structural strength and wear ergonomics. Add concise hand‑written technical annotations such as “shank wall thickness 1.2mm” and “bezel setting seat”.
+
+Design must be physically feasible. Reject purely imaginative non‑manufacturable geometry. Atelier designer sketch. Not a 3D render. Not a commercial product photograph.

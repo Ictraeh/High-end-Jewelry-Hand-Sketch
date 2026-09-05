@@ -1,0 +1,62 @@
+skill_name: "High-End Jewelry Hand-Sketch Generator"
+skill_id: "high-end-jewelry-hand-sketch"
+version: "1.3.0"
+description: >
+  Accept free-form user creative subjects and generate a cohesive set of high-end
+  jewelry hand-sketch designs. Deconstruct subjects into form, material, color and
+  craft elements, then output three consistent images: full design drawing, craft
+  detail close-up drawing, and theme mood-reference board. Outputs respect real
+  jewelry manufacturing constraints and follow high-jewelry atelier sketch aesthetics.
+
+license: "MIT"
+credits_file: "./CREDITS.md"
+
+input_parameters:
+  - name: jewelry_type
+    type: string
+    default: "ring"
+    description: "Jewelry category: ring / pendant / earring / bracelet / brooch / hair ornament / cufflink"
+  - name: material_list
+    type: string
+    default: "18K gold, 925 silver, diamond, black onyx"
+    description: "Precious metals, gemstones and special craft materials"
+  - name: color_scheme
+    type: string
+    default: "warm gold, silver-white, deep black, subtle cool grey"
+    description: "Unified color palette for all three generated drawings"
+  - name: drawing_medium
+    type: string
+    default: "pencil + colored pencil + light watercolor wash"
+    description: "Hand-drawing artistic medium"
+
+fixed_brand_reference: >
+  Cartier, Buccellati, CINDY CHAO, ANNA HU, Boucheron, Nikos Koulis,
+  Whetstone Jewellery, Pomellato, Masriera, Chaumet, Van Cleef & Arpels,
+  Bvlgari, Graff, Harry Winston, WUYIN, NanZhao Gold-Silver Workshop
+
+hand_drawing_sources:
+  - atelier layout paper grain
+  - goldsmith construction centerlines
+  - colored-pencil metal washes
+  - light watercolor presentation comps
+  - bench-ticket millimeter annotations
+  - sectional cutaway / magnifier craft views
+  - design research mood-board collage
+
+output_spec:
+  count: 3
+  separate_image: true
+  output_items:
+    - id: img1_full_design
+      title: "Full Jewelry Design Drawing"
+    - id: img2_detail_craft
+      title: "Craft Detail Close-Up Drawing"
+    - id: img3_mood_board
+      title: "Theme Mood-Reference Board"
+
+negative_prompt_file: "./prompts/negative_prompt.txt"
+prompt_files:
+  main: "./prompts/main_prompt.txt"
+  img1: "./prompts/image1_full_design.txt"
+  img2: "./prompts/image2_detail_craft.txt"
+  img3: "./prompts/image3_mood_board.txt"

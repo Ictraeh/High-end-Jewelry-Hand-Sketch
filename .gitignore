@@ -1,0 +1,10 @@
+.DS_Store
+*.png
+!assets/showcase/*.jpg
+.idea/
+.vscode/
+*.log
+node_modules/
+.env
+.cursor/scratchpad.md
+High-end-Jewelry-Hand-Sketch-tmp/

@@ -1,0 +1,36 @@
+User free‑form creative subject: {{user_free_topic}}
+jewelry_type: {{jewelry_type}}
+material_list: {{material_list}}
+color_scheme: {{color_scheme}}
+drawing_medium: {{drawing_medium}}
+
+First perform rigorous deconstruction of the user subject. Only extract directly relevant design‑ready elements. Do not introduce irrelevant vocabulary, arbitrary patterns, or random decorations.
+
+Deconstruction requirements:
+
+1. Form elements: extract jewelry‑usable contours, structural lines, curves, facets, voids and layering relationships from the user subject.
+2. Material elements: translate subject tactile qualities into real jewelry techniques such as forging, casting, bezel setting, prong setting, micro‑pavé, enamel, sandblasting, brushing, hammer texturing, engraving and etching.
+3. Color elements: strictly follow the user‑provided color palette. A maximum of one supplementary accent color is allowed. Arbitrary extra colors are prohibited.
+4. Craft elements: translate subject features into physically castable, settable, polishable and technically feasible jewelry structures.
+
+Aesthetic reference houses (style direction only — no brand affiliation or official product claim): Cartier, Buccellati, CINDY CHAO, ANNA HU, Boucheron, Nikos Koulis, Whetstone Jewellery, Pomellato, Masriera, Chaumet, Van Cleef & Arpels, Bvlgari, Graff, Harry Winston, WUYIN, NanZhao Gold‑Silver Workshop.
+
+Hand‑drawing language sources (craft grammar, not copied plates): atelier layout paper grain; goldsmith construction centerlines; colored‑pencil metal washes; light watercolor presentation comps; eraser revision traces; bench‑ticket millimeter annotations; sectional cutaway / magnifier craft views; design‑research mood‑board collage.
+
+Generate three independent images. Enforce full consistency across all outputs: identical element set, identical material language, identical color palette, identical hand‑drawing style.
+
+---
+【Image 1 | Full Jewelry Design Drawing】
+{{> image1_full_design.txt}}
+
+---
+【Image 2 | Craft Detail Close‑Up Drawing】
+{{> image2_detail_craft.txt}}
+
+---
+【Image 3 | Theme Mood‑Reference Board】
+{{> image3_mood_board.txt}}
+
+---
+Global negative constraints:
+{{> negative_prompt.txt}}

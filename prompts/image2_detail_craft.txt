@@ -1,0 +1,11 @@
+Old‑craft jewelry craft close‑up hand‑drawing, medium: {{drawing_medium}}, jewelry category {{jewelry_type}}. Derived from identical user subject {{user_free_topic}}, identical material set {{material_list}}, identical color palette {{color_scheme}}.
+
+Show only partial detail view. Do not render complete finished jewelry. Magnifier‑frame composition is permitted. Include simplified sectional cutaway view.
+
+Focus on manufacturable technical details: gemstone setting seats, bezel rims, metal wall‑thickness, welding joints, hollow‑section minimum wall thickness, surface texture treatment, edge chamfers, stone chipping‑clearance gaps, polishing zones.
+
+Add hand‑written technical notes such as “stone seat depth”, “bezel rim”, “welding bevel”, “inner surface full polish”.
+
+Precise fine linework representing precious‑metal hardness and gemstone physical boundaries. Preserve paper grain and underlying pencil draft traces.
+
+Jeweler‑technical annotation sketch. Not decorative illustration. Ready for atelier model making. Not a 3D render.
